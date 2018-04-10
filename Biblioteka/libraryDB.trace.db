@@ -1,0 +1,12 @@
+2018-01-20 21:28:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Wartość za długa dla kolumny "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Od niepami\u0119tnych czas\u00f3w noc\u0105 w\u0142adaj\u0105 krwio\u017cercze demony, za spraw\u0105 kt\u00f3rych... (336)"
+Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Od niepami\u0119tnych czas\u00f3w noc\u0105 w\u0142adaj\u0105 krwio\u017cercze demony, za spraw\u0105 kt\u00f3rych... (336)"; SQL statement:
+INSERT INTO `BOOKS` (`AUTHOR_ID` ,`CATEGORY_ID` ,`TITLE` ,`DESCRIPTION` ,`RELEASE_DATE` ,`RATING` ) VALUES (?,?,?,?,?,?) [22001-196]
+2018-01-20 21:30:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Wartość za długa dla kolumny "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Od niepami\u0119tnych czas\u00f3w noc\u0105 w\u0142adaj\u0105 krwio\u017cercze demony, za spraw\u0105 kt\u00f3rych... (336)"
+Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Od niepami\u0119tnych czas\u00f3w noc\u0105 w\u0142adaj\u0105 krwio\u017cercze demony, za spraw\u0105 kt\u00f3rych... (336)"; SQL statement:
+INSERT INTO `BOOKS` (`AUTHOR_ID` ,`CATEGORY_ID` ,`TITLE` ,`DESCRIPTION` ,`RELEASE_DATE` ,`RATING` ) VALUES (?,?,?,?,?,?) [22001-196]
+2018-01-20 21:32:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Wartość za długa dla kolumny "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Od niepami\u0119tnych czas\u00f3w noc\u0105 w\u0142adaj\u0105 krwio\u017cercze demony, za spraw\u0105 kt\u00f3rych... (336)"
+Value too long for column "DESCRIPTION VARCHAR(255)": "STRINGDECODE('Od niepami\u0119tnych czas\u00f3w noc\u0105 w\u0142adaj\u0105 krwio\u017cercze demony, za spraw\u0105 kt\u00f3rych... (336)"; SQL statement:
+INSERT INTO `BOOKS` (`AUTHOR_ID` ,`CATEGORY_ID` ,`TITLE` ,`DESCRIPTION` ,`RATING` ) VALUES (?,?,?,?,?) [22001-196]
